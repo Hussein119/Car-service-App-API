@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Plumbing Services",
+    "description": "Expert plumbing services for all your needs.",
+    "imageCover": "plumbing.jpg",
+    "category": "Home Services",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 25,
+    "location": "Cairo",
+    "phone": "+201234567800",
+    "availableTime": {
+      "daysPerWeek": ["Monday", "Wednesday", "Friday"],
+      "startTime": "08:00",
+      "endTime": "16:00"
+    },
+    "waitingTime": 2,
+    "area": "Downtown",
+    "serviceProvider": "651eea592fd5a27e9b6f70fb",
+    "reviews": "",
+    "approved": true
+  },
+  {
+    "name": "Electrical Repairs",
+    "description": "Professional electrical repair services.",
+    "imageCover": "electrician.jpg",
+    "category": "Home Services",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 18,
+    "location": "Alexandria",
+    "phone": "+201234567801",
+    "availableTime": {
+      "daysPerWeek": ["Tuesday", "Thursday", "Saturday"],
+      "startTime": "09:00",
+      "endTime": "17:00"
+    },
+    "waitingTime": 3,
+    "area": "Beach",
+    "serviceProvider": "651eea592fd5a27e9b6f70fb",
+    "reviews": "",
+    "approved": true
+  },
+  {
+    "name": "House Cleaning",
+    "description": "Professional house cleaning services.",
+    "imageCover": "cleaning.jpg",
+    "category": "Home Services",
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 12,
+    "location": "Giza",
+    "phone": "+201234567802",
+    "availableTime": {
+      "daysPerWeek": ["Monday", "Wednesday", "Friday"],
+      "startTime": "10:00",
+      "endTime": "18:00"
+    },
+    "waitingTime": 1,
+    "area": "Pyramids",
+    "serviceProvider": "651eea592fd5a27e9b6f70fb",
+    "reviews": "",
+    "approved": true
+  },
+  {
+    "name": "Landscaping Services",
+    "description": "Professional landscaping and gardening services.",
+    "imageCover": "landscaping.jpg",
+    "category": "Home Services",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 30,
+    "location": "Cairo",
+    "phone": "+201234567803",
+    "availableTime": {
+      "daysPerWeek": ["Tuesday", "Thursday", "Saturday"],
+      "startTime": "08:00",
+      "endTime": "16:00"
+    },
+    "waitingTime": 2,
+    "area": "Maadi",
+    "serviceProvider": "651eea592fd5a27e9b6f70f7",
+    "reviews": "",
+    "approved": true
+  },
+  {
+    "name": "AC Repair Services",
+    "description": "Fast and reliable air conditioning repair services.",
+    "imageCover": "acrepair.jpg",
+    "category": "Home Services",
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 40,
+    "location": "Alexandria",
+    "phone": "+201234567804",
+    "availableTime": {
+      "daysPerWeek": ["Monday", "Wednesday", "Friday"],
+      "startTime": "09:00",
+      "endTime": "17:00"
+    },
+    "waitingTime": 1,
+    "area": "Corniche",
+    "serviceProvider": "651eea592fd5a27e9b6f70f7",
+    "reviews": "",
+    "approved": true
+  },
+  {
+    "name": "Computer Repair Services",
+    "description": "Expert computer repair and IT services.",
+    "imageCover": "computerrepair.jpg",
+    "category": "Electronics",
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 22,
+    "location": "Giza",
+    "phone": "+201234567805",
+    "availableTime": {
+      "daysPerWeek": ["Tuesday", "Thursday", "Saturday"],
+      "startTime": "10:00",
+      "endTime": "18:00"
+    },
+    "waitingTime": 2,
+    "area": "Dokki",
+    "serviceProvider": "651eea592fd5a27e9b6f70f7",
+    "reviews": "",
+    "approved": true
+  },
+  {
+    "name": "Catering Services",
+    "description": "Catering services for special events and parties.",
+    "imageCover": "catering.jpg",
+    "category": "Events & Catering",
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 15,
+    "location": "Cairo",
+    "phone": "+201234567806",
+    "availableTime": {
+      "daysPerWeek": ["Monday", "Wednesday", "Friday"],
+      "startTime": "08:00",
+      "endTime": "16:00"
+    },
+    "waitingTime": 3,
+    "area": "Zamalek",
+    "serviceProvider": "651eea592fd5a27e9b6f70f9",
+    "reviews": "",
+    "approved": true
+  },
+  {
+    "name": "Car Rental Services",
+    "description": "Car rental services for travelers and commuters.",
+    "imageCover": "carrental.jpg",
+    "category": "Automotive",
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 28,
+    "location": "Alexandria",
+    "phone": "+201234567807",
+    "availableTime": {
+      "daysPerWeek": ["Tuesday", "Thursday", "Saturday"],
+      "startTime": "09:00",
+      "endTime": "17:00"
+    },
+    "waitingTime": 1,
+    "area": "Roushdy",
+    "serviceProvider": "651eea592fd5a27e9b6f70f9",
+    "reviews": "",
+    "approved": true
+  },
+  {
+    "name": "Personal Training",
+    "description": "Personalized fitness training and coaching services.",
+    "imageCover": "personaltraining.jpg",
+    "category": "Fitness & Health",
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 35,
+    "location": "Giza",
+    "phone": "+201234567808",
+    "availableTime": {
+      "daysPerWeek": ["Monday", "Wednesday", "Friday"],
+      "startTime": "10:00",
+      "endTime": "18:00"
+    },
+    "waitingTime": 2,
+    "area": "Mohandessin",
+    "serviceProvider": "651eea592fd5a27e9b6f70f9",
+    "reviews": "",
+    "approved": true
+  },
+  {
+    "name": "Interior Design Services",
+    "description": "Interior design services for homes and offices.",
+    "imageCover": "interiordesign.jpg",
+    "category": "Home Services",
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 20,
+    "location": "Cairo",
+    "phone": "+201234567809",
+    "availableTime": {
+      "daysPerWeek": ["Tuesday", "Thursday", "Saturday"],
+      "startTime": "09:00",
+      "endTime": "17:00"
+    },
+    "waitingTime": 3,
+    "area": "Maadi",
+    "serviceProvider": "651eea592fd5a27e9b6f70f9",
+    "reviews": "",
+    "approved": true
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "review": "This product exceeded my expectations. It's high quality and very durable.",
+    "rating": 5,
+    "customer": "651eea592fd5a27e9b6f70f5",
+    "product": "651eeb9e92bea997c16c2215"
+  },
+  {
+    "review": "I'm satisfied with the purchase. The product is exactly as described.",
+    "rating": 4,
+    "customer": "651eea592fd5a27e9b6f70fa",
+    "product": "651eeb9e92bea997c16c2215"
+  },
+  {
+    "review": "The product arrived damaged, but the customer support was quick to resolve the issue.",
+    "rating": 2,
+    "customer": "651eea592fd5a27e9b6f70fc",
+    "product": "651eeb9e92bea997c16c2216"
+  },
+  {
+    "review": "I love this product! It's a great addition to my home.",
+    "rating": 5,
+    "customer": "651eea592fd5a27e9b6f70fe",
+    "product": "651eeb9e92bea997c16c2216"
+  },
+  {
+    "review": "The product quality is disappointing. It feels cheap and flimsy.",
+    "rating": 1,
+    "customer": "651eea592fd5a27e9b6f70f8",
+    "product": "651eeb9e92bea997c16c2219"
+  },
+  {
+    "review": "I'm happy with this purchase. The product is well-designed and functional.",
+    "rating": 4,
+    "customer": "651eea592fd5a27e9b6f70f6",
+    "product": "651eeb9e92bea997c16c221a"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Alice Johnson",
+    "photo": "user1.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [40.7128, -74.006],
+      "address": "123 Main Street",
+      "description": "A lovely place"
+    },
+    "role": "customer",
+    "phone": "+12345678901",
+    "email": "alicejohnson@example.com",
+    "password": "password123",
+    "passwordConfirm": "password123"
+  },
+  {
+    "name": "Bob Smith",
+    "photo": "user2.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [34.0522, -118.2437],
+      "address": "456 Oak Avenue",
+      "description": "A cozy spot"
+    },
+    "role": "customer",
+    "phone": "+12345678902",
+    "email": "bobsmith@example.com",
+    "password": "password456",
+    "passwordConfirm": "password456"
+  },
+  {
+    "name": "Charlie Davis",
+    "photo": "user3.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [51.5074, -0.1278],
+      "address": "789 Pine Street",
+      "description": "A peaceful place"
+    },
+    "role": "serviceProvider",
+    "phone": "+12345678903",
+    "email": "charliedavis@example.com",
+    "password": "password789",
+    "passwordConfirm": "password789"
+  },
+  {
+    "name": "Ella Wilson",
+    "photo": "user4.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [52.52, 13.405],
+      "address": "101 Elm Street",
+      "description": "A charming place"
+    },
+    "role": "customer",
+    "phone": "+12345678904",
+    "email": "ellawilson@example.com",
+    "password": "passwordabc",
+    "passwordConfirm": "passwordabc"
+  },
+  {
+    "name": "Frank Brown",
+    "photo": "user5.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [41.8781, -87.6298],
+      "address": "202 Maple Lane",
+      "description": "A fantastic place"
+    },
+    "role": "serviceProvider",
+    "phone": "+12345678905",
+    "email": "frankbrown@example.com",
+    "password": "passworddef",
+    "passwordConfirm": "passworddef"
+  },
+  {
+    "name": "Grace Lee",
+    "photo": "user6.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [48.8566, 2.3522],
+      "address": "303 Cedar Street",
+      "description": "A beautiful place"
+    },
+    "role": "customer",
+    "phone": "+12345678906",
+    "email": "gracelee@example.com",
+    "password": "passwordghi",
+    "passwordConfirm": "passwordghi"
+  },
+  {
+    "name": "Henry Taylor",
+    "photo": "user7.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [34.0522, -118.2437],
+      "address": "404 Birch Street",
+      "description": "A serene place"
+    },
+    "role": "serviceProvider",
+    "phone": "+12345678907",
+    "email": "henrytaylor@example.com",
+    "password": "passwordjkl",
+    "passwordConfirm": "passwordjkl"
+  },
+  {
+    "name": "Isabella Anderson",
+    "photo": "user8.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [51.5074, -0.1278],
+      "address": "505 Willow Street",
+      "description": "A relaxing place"
+    },
+    "role": "customer",
+    "phone": "+12345678908",
+    "email": "isabellaanderson@example.com",
+    "password": "passwordmno",
+    "passwordConfirm": "passwordmno"
+  },
+  {
+    "name": "Jack White",
+    "photo": "user9.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [52.52, 13.405],
+      "address": "606 Oak Street",
+      "description": "A magical place"
+    },
+    "role": "admin",
+    "phone": "+12345678909",
+    "email": "jackwhite@example.com",
+    "password": "passwordpqr",
+    "passwordConfirm": "passwordpqr"
+  },
+  {
+    "name": "Lily Davis",
+    "photo": "user10.jpg",
+    "location": {
+      "type": "Point",
+      "coordinates": [41.8781, -87.6298],
+      "address": "707 Elm Street",
+      "description": "A mystical place"
+    },
+    "role": "customer",
+    "phone": "+12345678910",
+    "email": "lilydavis@example.com",
+    "password": "passwordxyz",
+    "passwordConfirm": "passwordxyz"
+  }
+]

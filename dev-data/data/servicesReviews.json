@@ -1,0 +1,44 @@
+[
+  {
+    "review": "Excellent service! The plumber arrived on time and fixed the issue quickly.",
+    "rating": 5,
+    "customer": "651eea592fd5a27e9b6f70f5",
+    "service": "651eeba492bea997c16c2236"
+  },
+  {
+    "review": "The electrical repair service was great. They solved my electrical problems efficiently.",
+    "rating": 4,
+    "customer": "651eea592fd5a27e9b6f70fa",
+    "service": "651eeba492bea997c16c2236"
+  },
+  {
+    "review": "The house cleaning service was okay, but they missed a few spots.",
+    "rating": 3,
+    "customer": "651630b8b977fb772383152c",
+    "service": "651eeba492bea997c16c2237"
+  },
+  {
+    "review": "I'm very happy with the landscaping services. My garden looks beautiful now.",
+    "rating": 5,
+    "customer": "651eea592fd5a27e9b6f70fc",
+    "service": "651eeba492bea997c16c2237"
+  },
+  {
+    "review": "Fast and efficient AC repair service. They fixed my AC in no time.",
+    "rating": 5,
+    "customer": "651eea592fd5a27e9b6f70fe",
+    "service": "651eeba492bea997c16c2238"
+  },
+  {
+    "review": "The computer repair service was good, but it took longer than expected.",
+    "rating": 4,
+    "customer": "651eea592fd5a27e9b6f70f8",
+    "service": "651eeba492bea997c16c2239"
+  },
+  {
+    "review": "The catering service provided delicious food for our event. Highly recommended!",
+    "rating": 5,
+    "customer": "651eea592fd5a27e9b6f70f6",
+    "service": "651eeba492bea997c16c2239"
+  }
+]
