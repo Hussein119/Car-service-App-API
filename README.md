@@ -1,15 +1,15 @@
-# Your API Name
+# Car Service App API
 
 ## Description
 
-This repository contains the source code for [Your API Name], a robust and scalable API built using Node.js. The API serves as the backend for web and mobile applications, facilitating seamless communication between clients and the server. It provides essential data access and functionality, making it a critical component of your software architecture.
+This repository contains the source code for Car Service App API, a robust and scalable API built using Node.js. The API serves as the backend for web and mobile applications, facilitating seamless communication between clients and the server. It provides essential data access and functionality, making it a critical component of your software architecture.
 
 ## Key Features
 
 - **Node.js:** The API leverages Node.js for high performance and scalability.
 - **Express.js:** Built with Express.js for efficient routing and middleware management.
 - **RESTful Design:** Follows RESTful principles for predictable and standardized endpoints.
-- **Database Integration:** Seamlessly connects to [Your Database] for data storage and retrieval.
+- **Database Integration:** Seamlessly connects to Mongodb for data storage and retrieval.
 - **Authentication and Authorization:** Implements robust user authentication and authorization mechanisms.
 - **Error Handling:** Comprehensive error handling and validation ensure reliability.
 - **Logging and Monitoring:** Includes logging and monitoring tools for performance analysis.
@@ -20,10 +20,9 @@ This repository contains the source code for [Your API Name], a robust and scala
 To run this API locally, follow these steps:
 
 1. Clone this repository to your local machine.
-2. Install dependencies using [package manager].
+2. Install dependencies using npm install.
 3. Configure environment variables and database connections.
-4. Run the API with [start command].
-5. Access API documentation at [documentation URL] for endpoint details.
+4. Run the API with npm start.
 
 ## Contributing
 
@@ -31,11 +30,6 @@ We welcome contributions! If you'd like to enhance or improve the API, feel free
 
 - Open issues to report bugs or suggest enhancements.
 - Submit pull requests for code improvements.
-- Join discussions on [community platform] for feature requests and feedback.
-
-## License
-
-This project is licensed under the [License Name]. See the [LICENSE.md](LICENSE.md) file for details.
 
 ## Service Hosted Link: https://graduation24.onrender.com
 
