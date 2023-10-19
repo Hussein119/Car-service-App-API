@@ -1,36 +1,29 @@
-name: Node.js CI/CD
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
+name: Node.js CI
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
 
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+    strategy:
+      matrix:
+        node-version: [18.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
       with:
-        node-version: 18  # Change to your desired Node.js version
-
-    - name: Install dependencies
-      run: npm install
-
-    - name: Build and test
-      run: npm run start:prod
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Deploy to production
-      run: |
-        # Add deployment steps here, e.g., deploying to a server, cloud platform, or container registry
-        # You'll need to define your own deployment process
-
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    - run: npm install
