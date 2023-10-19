@@ -22,9 +22,7 @@ jobs:
       run: npm install
 
     - name: Build and test
-      run: |
-        npm run start:prod
-        # You can add more test commands if needed
+      run: npm run start:prod
 
   deploy:
     needs: build
@@ -32,6 +30,7 @@ jobs:
 
     steps:
     - name: Deploy to production
-      # Add deployment steps here, e.g., deploying to a server, cloud platform, or container registry
-      # You'll need to define your own deployment process
+      run: |
+        # Add deployment steps here, e.g., deploying to a server, cloud platform, or container registry
+        # You'll need to define your own deployment process
 
