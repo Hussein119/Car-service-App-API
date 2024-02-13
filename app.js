@@ -10,7 +10,6 @@ const cookieParser = require('cookie-parser');
 const compression = require('compression');
 const cors = require('cors');
 const globalErrorHandler = require('./controllers/errorControllers');
-const messageControllers = require('./controllers/messageControllers');
 const userRouter = require('./routes/userRoutes');
 const productReviewRouter = require('./routes/productReviewRoutes');
 const serviceReviewRouter = require('./routes/serviceReviewRoutes');
@@ -35,7 +34,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Set security HTTP headers
 app.use(helmet({ contentSecurityPolicy: false }));
 
-// Development looging
+// Development
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 }
@@ -50,7 +49,6 @@ const limiter = rateLimit({
 app.use('/api', limiter);
 
 // Body parser, reading data from the body into req.body
-//app.use(express.json());
 app.use(express.json({ limit: '10kb' }));
 app.use(express.urlencoded({ extended: true, limit: '10kb' }));
 app.use(cookieParser());
@@ -76,13 +74,12 @@ app.use('/api/v1/productReviews', productReviewRouter);
 app.use('/api/v1/serviceReviews', serviceReviewRouter);
 app.use('/api/v1/products', productRouter);
 app.use('/api/v1/services', serviceRouter);
-//app.use('/api/v1/message', messageRouter);
 
 app.all('*', (req, res, next) => {
   next(new AppError(`Cannot find ${req.originalUrl} on this server`, 404));
 });
 
-// global error handeling
+// global error handling
 app.use(globalErrorHandler);
 
 module.exports = app;
