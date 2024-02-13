@@ -13,7 +13,6 @@ const globalErrorHandler = require('./controllers/errorControllers');
 const userRouter = require('./routes/userRoutes');
 const productReviewRouter = require('./routes/productReviewRoutes');
 const serviceReviewRouter = require('./routes/serviceReviewRoutes');
-const messageRouter = require('./routes/messageRoutes');
 const productRouter = require('./routes/productRoutes');
 const serviceRouter = require('./routes/serviceRoutes');
 const AppError = require('./utils/appError');
